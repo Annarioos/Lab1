@@ -1,7 +1,14 @@
 #include <stdio.h>
+int corabl(void);
+
 int main()
 {
+	corabl();
+	return 0;
+}
 
+int corabl(void)
+{
 	puts("                  /|                   ");
 	puts("                 / |                   ");
 	puts("                /  |                   ");
